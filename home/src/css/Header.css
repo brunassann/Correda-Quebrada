@@ -1,0 +1,238 @@
+.faixa-promocional {
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.barra-contato {
+  background-color: #FF6600;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 14px;
+}
+
+.telefones,
+.links-navegacao {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+}
+.links-navegacao a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: all .1s;
+}
+
+.links-navegacao a:hover{
+    font-weight: 700;
+    transition: all .1s;
+}
+.cabecalho-principal {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 4px #00000010;
+}
+
+.logo-marca {
+  width: 250px;
+  height: 50px;
+  
+}
+.logo-marca img{
+    width: 100%;
+    height: auto;
+}
+
+
+.campo-pesquisa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #808080;
+  border-radius: 999px;
+  overflow: hidden;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #808080;
+  width: 300px;
+  height: 40px;
+}
+
+.campo-pesquisa input {
+  border: none;
+  padding: 8px 12px;
+  outline: none;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #696969;
+}
+
+
+
+.acoes-usuario {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  color: #808080;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+
+.botao-pedido {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Poppins";
+  transition: all .4s;
+}
+.botao-pedido:hover{
+    transform: scale(1.05);
+    transition: all .4s;
+}
+.menu-categorias {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-categorias a {
+  text-decoration: none;
+  color: #333;
+}
+
+.botao-destaque {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+
+/* Responsividade Cabeçalho, Barra Contato, Pesquisa e Ações */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .barra-contato {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .telefones,
+  .links-navegacao {
+    gap: 12px;
+  }
+
+  .cabecalho-principal {
+    padding: 15px;
+  }
+
+  .logo-marca {
+    width: 180px;
+    height: auto;
+  }
+
+  .campo-pesquisa {
+    width: 220px;
+    height: 36px;
+  }
+
+  .campo-pesquisa input {
+    font-size: 14px;
+  }
+
+  .acoes-usuario {
+    gap: 30px;
+    font-size: 22px;
+  }
+
+  .botao-pedido {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .menu-categorias {
+    gap: 25px;
+    padding: 8px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 640px) {
+  .barra-contato {
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .telefones,
+  .links-navegacao {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .cabecalho-principal {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  .logo-marca {
+    width: 140px;
+    height: auto;
+  }
+
+  .campo-pesquisa {
+    width: 100%;
+    max-width: 280px;
+    height: 36px;
+  }
+
+  .campo-pesquisa input {
+    font-size: 14px;
+  }
+
+  .acoes-usuario {
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  .botao-pedido {
+    padding: 8px 18px;
+    font-size: 13px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .menu-categorias {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 8px 10px;
+    justify-content: center;
+  }
+
+  .menu-categorias a {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,92 @@
+/* Cadastro */
+.secao-cadastro {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.secao-cadastro p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.secao-cadastro input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.secao-cadastro button {
+  padding: 10px 20px;
+  background-color: #FF6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.secao-cadastro button:hover {
+  background-color: #FF6600;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #FF6600;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.rodape-logo {
+  margin-bottom: 10px;
+}
+
+.rodape-logo img {
+  height: 40px;
+}
+/* Responsividade Cadastro e Rodapé */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .secao-cadastro input {
+    width: 140px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 640px) {
+  .secao-cadastro {
+    padding: 30px 10px;
+  }
+
+  .secao-cadastro input {
+    width: 100%;
+    max-width: 300px;
+    margin: 8px 0;
+  }
+
+  .secao-cadastro button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 0;
+    margin-top: 12px;
+  }
+
+  .rodape {
+    font-size: 0.75rem;
+    padding: 15px 10px;
+  }
+
+  .rodape-logo img {
+    height: 30px;
+  }
+}

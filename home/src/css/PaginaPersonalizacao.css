@@ -1,0 +1,153 @@
+.pagina-personalizacao {
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.banner-personalizacao {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.banner-personalizacao h1 {
+  font-size: 2rem;
+  color: #FF6600;
+  margin-bottom: 10px;
+}
+
+.banner-personalizacao p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.formulario-personalizacao {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.formulario-personalizacao h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formulario-personalizacao label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: "Poppins";
+}
+
+.formulario-personalizacao select,
+.formulario-personalizacao input {
+  padding: 10px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+.formulario-personalizacao button {
+  margin-top: 15px;
+  background-color: #FF6600;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: "Poppins";
+}
+
+/* Responsividade Página Personalização */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .pagina-personalizacao {
+    padding: 30px 15px;
+  }
+
+  .banner-personalizacao {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+  }
+
+  .banner-personalizacao h1 {
+    font-size: 1.7rem;
+  }
+
+  .banner-personalizacao p {
+    font-size: 1rem;
+  }
+
+  .formulario-personalizacao {
+    max-width: 400px;
+    gap: 12px;
+  }
+
+  .formulario-personalizacao h2 {
+    font-size: 1.3rem;
+  }
+
+  .formulario-personalizacao select,
+  .formulario-personalizacao input {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+
+  .formulario-personalizacao button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Celulares */
+@media (max-width: 640px) {
+  .pagina-personalizacao {
+    padding: 20px 10px;
+  }
+
+  .banner-personalizacao {
+    padding: 20px 10px;
+    margin-bottom: 25px;
+  }
+
+  .banner-personalizacao h1 {
+    font-size: 1.4rem;
+  }
+
+  .banner-personalizacao p {
+    font-size: 0.9rem;
+  }
+
+  .formulario-personalizacao {
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
+  .formulario-personalizacao h2 {
+    font-size: 1.1rem;
+  }
+
+  .formulario-personalizacao select,
+  .formulario-personalizacao input {
+    font-size: 0.9rem;
+    padding: 7px;
+  }
+
+  .formulario-personalizacao button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
