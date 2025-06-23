@@ -1,7 +1,5 @@
-# Kavest
-
 <p align="center">
-  <img src="home/src/imagem/logo.png" alt="Logo da Kavest" width="150" />
+  <img src="home/src/imagem/logo.png" alt="Logo da Kavest" width="250" />
 </p>
 
 Kavest é uma loja de uniformes profissionais, focada em oferecer uma experiência simples e eficiente para compra de uniformes com qualidade.
