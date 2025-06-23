@@ -2,7 +2,14 @@
   <img src="home/src/imagem/logo.png" alt="Logo da Kavest" width="250" />
 </p>
 
-Kavest é uma loja de uniformes profissionais, focada em oferecer uma experiência simples e eficiente para compra de uniformes com qualidade.
+<p align="center">
+  <span style="font-size: 18px;">
+    A <strong>Kavest</strong> é mais do que uma loja de uniformes — é uma solução moderna e acessível para empresas que buscam praticidade, qualidade e agilidade na hora de vestir suas equipes.
+    <br/><br/>
+    Com uma navegação intuitiva, catálogo organizado e visual profissional, nossa plataforma foi desenvolvida para proporcionar uma <strong>experiência de compra rápida, segura e personalizada</strong>.
+    <br/><br/>
+    Estamos construindo um ambiente onde *tecnologia e moda profissional se encontram* para facilitar a sua rotina.
+  </span>
 
 ---
 
